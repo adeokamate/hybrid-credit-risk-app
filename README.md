@@ -9,8 +9,8 @@ A hybrid machine learning system that combines:
 ---
 
 ## 🧠 Formula
-
 FinalRisk = 0.7 × DefaultProbability + 0.3 × BehaviorRisk
+
 
 ---
 
@@ -27,19 +27,22 @@ FinalRisk = 0.7 × DefaultProbability + 0.3 × BehaviorRisk
 
 Download the datasets:
 
-- Loan Dataset: to be shared shortly 
-- Mobile Money Dataset: to be shared 
+- Loan Dataset: *to be shared shortly*  
+- Mobile Money Dataset: *to be shared*  
 
 Rename and place them in the project folder as:
 loans.csv
 momo.csv
 
 
+---
 
 ## ▶️ Run the App
 
+```bash
 pip install -r requirements.txt
 streamlit run app.py
+
 
 ⚠️ Note
 
